@@ -16,14 +16,19 @@ This repository contains a collection of professional Verilog RTL design example
 - Verdi (Debugging)
 
 ## 📂 Structure
+```text
+verilog_examples/
+│── rtl/
+  ├── alu.v
+  ├── dff.v
+  ├── counter.v
+  ├── fsm.v
+│── tb/
+  ├── tb_alu.v
+  ├── tb_fsm.v
+│── README.md
 
-| Module | Description |
-|--------|------------|
-| alu.v | Arithmetic Logic Unit (ALU) |
-| dff.v | D Flip-Flop |
-| counter.v | Synchronous Counter |
-| fsm.v | Finite State Machine |
-| tb_*.v | Testbenches |
+
 
 ## 🎯 Objective
 To demonstrate RTL coding practices used in real ASIC/FPGA design flows.
